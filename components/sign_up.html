@@ -27,7 +27,104 @@ Tags: Website
 </header>
 <main class="float_container">
     <div class="float_child btn grid_container" id="main_buttons">
-    </div>
+        <form id="basic_information">
+            <label for="fname">First Name: </label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="pname">Preferred Name (optional): </label><br>
+            <input type="text" id="pname" name="pname"><br>
+            <label for="age">Age:</label><br>
+            <input type="text" id="age" name="age">
+        </form><br>
+
+        <form class="emergency_contacts">
+            <label for="contact">Emergency Contact Name: </label><br>
+            <input type="text" id="contact" name="contact"><br>
+            <label for="number">Phone Number:</label><br>
+            <input type="tel" id="number" name="number">
+        </form><br>
+
+        <div>
+            <h2>Pre-Existing Medical Conditions</h2><br>
+            <form method="get">
+                <input type="checkbox" name="condition1" value="asthma">
+                <label for="condition1"> Asthma </label><br>
+                <input type="checkbox" name="condition2" value="diabetes">
+                <label for="condition2"> Diabetes </label><br>
+                <input type="checkbox" name="condition3" value="copd">
+                <label for="condition3"> Chronic Obstructive Pulmonary Disease (COPD) </label><br>
+                <input type="checkbox" name="condition4" value="obesity">
+                <label for="condition4"> Obesity </label><br>
+                <input type="checkbox" name="condition5" value="atherosclerosis">
+                <label for="condition5"> Atherosclerosis </label><br>
+                <input type="checkbox" name="condition6" value="cancer">
+                <label for="condition6"> Cancer </label><br>
+                <input type="checkbox" name="condition7" value="arthritis">
+                <label for="condition7"> Arthritis </label><br>
+                <input type="checkbox" name="condition8" value="cerebral_palsy">
+                <label for="condition8"> Cerebral Palsy </label><br>
+                <input type="checkbox" name="condition9" value="liver_cirrhosis">
+                <label for="condition9"> Liver Cirrhosis </label><br>
+                <input type="checkbox" name="condition10" value="cystic_fibrosis">
+                <label for="condition10"> Cystic Fibrosis </label><br>
+                <input type="checkbox" name="condition11" value="heart_failure">
+                <label for="condition11"> Congestive Heart Failure </label><br>
+                <input type="checkbox" name="condition12" value="hepatitis">
+                <label for="condition12"> Hepatitis (Type B, C, or Chronic) </label><br>
+                <input type="checkbox" name="condition13" value="dystrophy">
+                <label for="condition13"> Muscular Dystrophy </label><br>
+                <input type="checkbox" name="condition14" value="paraplegia">
+                <label for="condition14"> Paraplegia </label><br>
+                <input type="checkbox" name="condition15" value="pulmonary_fibrosis">
+                <label for="condition15"> Pulmonary Fibrosis </label><br>
+                <input type="checkbox" name="condition16" value="tuberculosis">
+                <label for="condition16"> Tuberculosis </label><br>
+                <label for="other">Other: </label><br>
+                <input type="text" id="other" name="other"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div><br>
+
+        <div>
+            <h2>Individual Concerns (theses will be prioritized in your search results)</h2><br>
+            <form method="get">
+                <input type="checkbox" name="condition1" value="wildfires">
+                <label for="condition1"> Wildfires </label><br>
+                <input type="checkbox" name="condition2" value="earthquakes">
+                <label for="condition2"> Earthquakes </label><br>
+                <input type="checkbox" name="condition3" value="floods">
+                <label for="condition3"> Floods </label><br>
+                <input type="checkbox" name="condition4" value="heat_wave">
+                <label for="condition4"> Heat Wave </label><br>
+                <input type="checkbox" name="condition5" value="tornadoes">
+                <label for="condition5"> Tornadoes </label><br>
+                <input type="checkbox" name="condition6" value="landslides">
+                <label for="condition6"> Landslides </label><br>
+                <input type="checkbox" name="condition7" value="volcano">
+                <label for="condition7"> Volcanic Eruption </label><br>
+                <input type="checkbox" name="condition8" value="tsunamis">
+                <label for="condition8"> Tsunamis </label><br>
+                <input type="checkbox" name="condition9" value="lightning">
+                <label for="condition9"> Lightning </label><br>
+                <input type="checkbox" name="condition10" value="burglaries">
+                <label for="condition10"> Burglaries / Thefts </label><br>
+                <input type="checkbox" name="condition11" value="violence">
+                <label for="condition11"> Surrounding Violence </label><br>
+                <input type="checkbox" name="condition12" value="suspects">
+                <label for="condition12"> Police suspects </label><br>
+                <input type="checkbox" name="condition13" value="pandemics">
+                <label for="condition13"> Pandemics </label><br>
+                <input type="checkbox" name="condition14" value="illnesses">
+                <label for="condition14"> Illnesses </label><br>
+                <input type="checkbox" name="condition15" value="bacteria">
+                <label for="condition15"> Bacteria </label><br>
+                <label for="other">Other: </label><br>
+                <input type="text" id="other" name="other"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div><br>
 </main>
 <footer id="signup">
     <input class="btn3 btn" type="button" onclick="location.href='../index.html';" value="Finish"/>
