@@ -10,12 +10,13 @@ Tags: Website
 <head>
     <meta charset="UTF-8">
     <title>Main Page</title>
-    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script src="scripts/main.js"></script>
 </head>
 <body>
     <header class="float_container" id="title">
 		<div class="float_child">
-			<img id="logo" src="../img/Logo.png">
+			<img id="logo" src="img/Logo.png">
 		</div>
 		<div class="float_child" id="title_text">
 			<h1 id="app_name"><b>Danger Alert App</b></h1>
@@ -23,7 +24,7 @@ Tags: Website
 		</div>
 	</header>
 	<main class="float_container" id="main_buttons">
-		<input class="btn1 btn float_child" type="button" onclick="location.href='search_page.html';" value="Any Dangers Around Me?"/>
+		<input class="btn1 btn float_child" type="button" onclick="openLocationRequest()" value="Any Dangers Around Me?"/>
 		<input class="btn2 btn float_child" type="button" onclick="location.href='call_emergency_contact.html';" value="Call Emergency Contact!"/>
 	</main>
 	<footer id="signup">
