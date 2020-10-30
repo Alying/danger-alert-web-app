@@ -1,0 +1,71 @@
+/*
+Description: Style sheet for Danger Alert application.
+Author: Alina Ying
+Author URI: https://alinaying.com/
+Tags: Website
+*/
+
+body {
+    font-family: "Courier 10 Pitch", sans-serif;
+    background-color: cadetblue;
+}
+
+header {
+    color: white;
+    float: left;
+}
+
+.float_container {
+    padding: 50px;
+}
+
+.float_child {
+    float: left;
+}
+
+#app_name {
+    padding: 30px;
+    font-size: 70px;
+}
+
+#title_text {
+    font-size: 27px;
+}
+
+.btn {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#main_buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: midnightblue;
+}
+
+.btn1 {
+    font-size: 80px;
+    background: lightpink;
+    border-radius: 20px;
+}
+.btn2 {
+    margin-left: 70px;
+    font-size: 80px;
+    background: lightyellow;
+}
+.btn3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 50px;
+    background: midnightblue;
+}
+
+
