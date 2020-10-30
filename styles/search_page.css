@@ -1,0 +1,112 @@
+/*
+Description: Style sheet for Danger Alert application.
+Author: Alina Ying
+Author URI: https://alinaying.com/
+Tags: Website
+*/
+
+body {
+    font-family: "Courier 10 Pitch", sans-serif;
+    background-color: cadetblue;
+}
+
+header {
+    color: white;
+    float: left;
+}
+
+.float_container {
+    display: grid;
+    padding: 50px;
+}
+
+.float_child {
+    float: left;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    grid-row: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box {
+    background-color:#333;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+}
+
+#app_name {
+    padding: 30px;
+    font-size: 70px;
+}
+
+#title_text {
+    padding: 40px;
+    font-size: 27px;
+}
+
+.btn {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#main_buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: midnightblue;
+}
+
+#top_buttons {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn1 {
+    font-size: 60px;
+
+    background: lightpink;
+    border-radius: 20px;
+}
+.btn2 {
+    font-size: 60px;
+
+    margin-left: 70px;
+    background: lightgoldenrodyellow;
+}
+
+.btn3 {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 50px;
+    background: midnightblue;
+}
+
+.btn4 {
+    font-size: 80px;
+    background: royalblue;
+    border-radius: 20px;
+}
+.btn5 {
+    margin-left: 70px;
+    font-size: 80px;
+    background: royalblue;
+}
