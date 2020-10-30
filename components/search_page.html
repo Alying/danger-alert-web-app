@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Results</title>
     <link rel="stylesheet" type="text/css" href="../styles/search_page.css">
+	<script src="../scripts/main.js"></script>
 </head>
 <body>
 	<header class="float_container" id="title">
@@ -14,16 +15,16 @@
 			<h1 id="title"><b>Results</b></h1>
 		</div>
 		<div class="float_child" id="top_buttons">
-			<input class="btn1 btn float_child" type="button" onclick="location.href='search_page2.html';" value="Any Dangers Around Me?"/>
+			<input class="btn1 btn float_child" type="button" onclick="openLocationRequest2()" value="Any Dangers Around Me?"/>
 			<input class="btn2 btn float_child" type="button" onclick="location.href='call_emergency_contact.html';" value="Call Emergency Contact!"/>
 		</div>
 	</header>
 	<main class="float_container">
 		<div class="float_child btn grid_container" id="main_buttons">
-			<input class="btn4 btn box grid1" type="button" value="Medium Danger"/>
-			<input class="btn5 btn box grid2" type="button" value="Steps to Mediate"/>
-			<img class="grid3 box" src="../img/FILLER_danger_search_results.png">
-			<img class="grid4 box" src="../img/FILLER_steps_to_mediate_danger_results.png">
+			<input class="btn4 btn box" type="button" value="Medium Danger"/>
+			<input class="btn5 btn box" type="button" value="Steps to Mediate"/>
+			<img class="box" src="../img/FILLER_danger_search_results.png">
+			<img class="box" src="../img/FILLER_steps_to_mediate_danger_results.png">
 		</div>
 	</main>
 	<footer id="signup">
