@@ -27,3 +27,10 @@ function openEmergencyCall(){
     window.alert('Calling... (dummy call)')
 }
 
+function signIn(){
+    window.alert('You are now signed in as Jane Doe.')
+}
+
+function signOut(){
+    window.alert('You are now signed out.')
+}

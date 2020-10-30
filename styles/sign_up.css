@@ -23,13 +23,33 @@ header {
     float: left;
 }
 
+.grid_container {
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    grid-row: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box {
+    background-color:#333;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+}
+
 #app_name {
     padding: 30px;
     font-size: 70px;
 }
 
 #title_text {
-    font-size: 27px;
+    padding: 40px;
+    font-size: 30px;
 }
 
 .btn {
@@ -46,20 +66,31 @@ header {
     background-color: midnightblue;
 }
 
+#top_buttons {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
 .btn1 {
-    font-size: 80px;
+    font-size: 60px;
+
     background: lightpink;
     border-radius: 20px;
 }
 .btn2 {
+    font-size: 60px;
+
     margin-left: 70px;
-    font-size: 80px;
-    background: lightyellow;
+    background: lightgoldenrodyellow;
 }
+
 .btn3 {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 90%;
+    left: 90%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 
@@ -68,21 +99,13 @@ header {
     background: midnightblue;
 }
 
-#login_logout_buttons {
-    position: absolute;
-    top: 10%;
-    left: 80%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
 .btn4 {
-    font-size: 60px;
+    font-size: 80px;
     background: royalblue;
     border-radius: 20px;
 }
 .btn5 {
     margin-left: 70px;
-    font-size: 60px;
+    font-size: 80px;
     background: royalblue;
 }

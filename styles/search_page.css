@@ -16,7 +16,6 @@ header {
 }
 
 .float_container {
-    display: grid;
     padding: 50px;
 }
 
@@ -50,7 +49,7 @@ header {
 
 #title_text {
     padding: 40px;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .btn {
